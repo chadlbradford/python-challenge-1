@@ -9,4 +9,4 @@
 This is my code that serves as the submission for the Module 2 challenge.
 
 ## Usage
-Run the script and follow the prompts to place an order.
+Run the python-challenge-1.ipynb script and follow the prompts to place an order.
