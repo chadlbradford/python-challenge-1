@@ -210,50 +210,50 @@ while place_order:
             print("Invalid input. Please enter 'Y' for yes or 'N' for no.")
             
 
-    # Complete the order
+            # Complete the order
 
-    # Since the customer decided to stop ordering, thank them for
-    # their order
-        
-
-
-    # Exit the keep ordering question loop
+            # Since the customer decided to stop ordering, thank them for
+            # their order
+                
 
 
-    # Tell the customer to try again
+            # Exit the keep ordering question loop
 
 
-    # Print out the customer's order
-    print("This is what we are preparing for you.\n")
+            # Tell the customer to try again
 
-    # Uncomment the following line to check the structure of the order
-    #print(order)
 
-    print("\nYour Order Summary:")
-    print("Item name                | Price  | Quantity | Subtotal")
-    print("-------------------------|--------|----------|---------")
-    total_cost = 0
-    for item in order:
-        subtotal = item["price"] * item["quantity"]  # Calculate the subtotal
-        total_cost += subtotal  # Add the subtotal to the total cost
-        num_item_spaces = 24 - len(item["name"])  # Calculate spacing for alignment
-        item_spaces = " " * num_item_spaces  # Create the spacing string
-        # Print the formatted line for the item
-        print(f"{item['name']}{item_spaces} | ${item['price']:.2f}  | {item['quantity']}        | ${subtotal:.2f}")
+# Print out the customer's order
+print("This is what we are preparing for you.\n")
 
-    # 6. Loop through the items in the customer's order
-    for item in order:
-        # 7. Store the dictionary items as variables
-        item_name = item["name"]
-        item_price = item["price"]
-        item_quantity = item["quantity"]
+# Uncomment the following line to check the structure of the order
+#print(order)
 
-        
-    # 8. Calculate the number of spaces for formatted printing
+print("\nYour Order Summary:")
+print("Item name                | Price  | Quantity | Subtotal")
+print("-------------------------|--------|----------|---------")
+total_cost = 0
+for item in order:
+    subtotal = item["price"] * item["quantity"]  # Calculate the subtotal
+    total_cost += subtotal  # Add the subtotal to the total cost
+    num_item_spaces = 24 - len(item["name"])  # Calculate spacing for alignment
+    item_spaces = " " * num_item_spaces  # Create the spacing string
+    # Print the formatted line for the item
+    print(f"{item['name']}{item_spaces} | ${item['price']:.2f}  | {item['quantity']}        | ${subtotal:.2f}")
 
-    # 9. Create space strings
+# 6. Loop through the items in the customer's order
+for item in order:
+    # 7. Store the dictionary items as variables
+    item_name = item["name"]
+    item_price = item["price"]
+    item_quantity = item["quantity"]
 
-    # 10. Print the item name, price, and quantity
+    
+# 8. Calculate the number of spaces for formatted printing
+
+# 9. Create space strings
+
+# 10. Print the item name, price, and quantity
 
 
 # 11. Calculate the cost of the order using list comprehension
