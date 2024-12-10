@@ -249,11 +249,11 @@ for item in order:
     item_quantity = item["quantity"]
 
     
-# 8. Calculate the number of spaces for formatted printing
+    # 8. Calculate the number of spaces for formatted printing
 
-# 9. Create space strings
+    # 9. Create space strings
 
-# 10. Print the item name, price, and quantity
+    # 10. Print the item name, price, and quantity
 
 
 # 11. Calculate the cost of the order using list comprehension
